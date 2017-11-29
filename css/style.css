@@ -1,0 +1,38 @@
+section.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio > .bio-header {
+  padding-top: 100px; 
+}
+
+.bio > .bio-header > img {
+  border-radius: 50%;
+  box-shadow: 0 -2px 2px 0 #333, 0 2px 8px 0 #333;
+}
+
+.bio-name {
+  margin-top: 50px; 
+  width: 90%;
+  height: 75px;
+  padding-top: 50px;
+  background-color: black; 
+}
+
+section.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px; 
+}
+
+.info-skill {
+  width: 130px;
+  height: 130px;
+  background-color: black; 
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-right: 120px;
+}
