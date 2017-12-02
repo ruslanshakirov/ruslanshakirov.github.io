@@ -63,13 +63,42 @@ section.info {
 
 @media only screen 
 and (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3) { 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
   .bio > .bio-header {
-    padding-top: 80px;
+    padding-top: 120px;
     width: 50vw;
   }
+
+  .bio-name {
+    margin-top: 2.5em; 
+    width: 90%;
+    height: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    background-color: black;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+  }
+
+  section.info {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-self: stretch
+  }
+
+  .info-skill {
+    width: 200px;
+    margin: 2em 2em;
+  }
 }
+
 
 
 /* @media screen and (max-width: 1440px) {
