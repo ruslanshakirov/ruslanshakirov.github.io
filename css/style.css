@@ -6,7 +6,8 @@ section.bio {
 }
 
 .bio > .bio-header {
-  padding-top: 80px; 
+  padding-top: 80px;
+  width: 15vw;
 }
 
 .bio > .bio-header > img {
@@ -52,6 +53,14 @@ section.info {
   content: '';
   margin-top: 100%;
 }
+
+@media only screen and (max-width: 375px) {
+  .bio > .bio-header {
+    padding-top: 80px;
+    width: 50vw;
+  }
+}
+
 
 /* @media screen and (max-width: 1440px) {
   .info-skill {
