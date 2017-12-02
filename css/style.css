@@ -54,7 +54,17 @@ section.info {
   margin-top: 100%;
 }
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
+  .bio > .bio-header {
+    padding-top: 80px;
+    width: 50vw;
+  }
+} */
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
   .bio > .bio-header {
     padding-top: 80px;
     width: 50vw;
