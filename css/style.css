@@ -83,7 +83,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   section.info {
-    margin-top: 70px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -94,7 +94,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   .info-skill {
-    width: 200px;
+    width: 190px;
     margin: 2em 2em;
   }
 }
