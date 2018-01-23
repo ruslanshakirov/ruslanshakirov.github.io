@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">       
-  </head>
-  <body>
-    <section class="bio">
-      <header class="bio-header">
-        <img src="http://gravatar.com/avatar/638d409d90c2ce4b77ca8bddd5330538?size=450" width="100%" height="auto">
-      </header>
-      <div class="bio-name">
-        <span>Привет, я Руслан</span>
-      </div>
-      <section class="info">
-        <article class="info-skill"></article>
-        <article class="info-skill"></article>
-        <article class="info-skill"></article>
-      </section>
-    </section>
-  </body>
-</html>
+---
+layout: default
+---
+<!-- Posts -->
+<ul id="posts">
+
+	{% for post in paginator.posts %}
+
+	  <li class="post">
+	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> </time>
+	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+	  </li>
+
+    {% endfor %}
+
+</ul>
