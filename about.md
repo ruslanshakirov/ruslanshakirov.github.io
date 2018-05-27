@@ -5,7 +5,7 @@ description: Some information about me.
 ---
 # Ruslan Shakirov, backend web developer
 Hello, I'm 21 y.o. This summer I get a bachelor's degree in Computer Science at Kazan Federal University.  
-I live in Kazan and work at [Technokratos](http://technokratos.com/en/), ready to relocate after graduation.
+I live in Kazan and work at [Worki](https://worki.ru/).
 
 ## Сontact with me:
 
