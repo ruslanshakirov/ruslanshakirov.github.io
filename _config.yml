@@ -1,11 +1,11 @@
 # Site settings
 title: "@dielone blog"
 description: "Tech blog"
-url: "https://ruslanshakirov.com"
+url: "https://shakirov.dev"
 author:
   name: "Ruslan Shakirov"
-  email: "toshiroshak@gmail.com"
-  url: "https://ruslanshakirov.com"
+  email: "ruslan@shakirov.dev"
+  url: "https://shakirov.dev"
 
 # Build settings
 baseurl: /

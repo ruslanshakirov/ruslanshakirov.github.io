@@ -13,4 +13,4 @@ I live in Kazan and work at [Worki](https://worki.ru/).
 - [GitHub](https://github.com/ruslanshakirov)
 - [LinkedIn](https://www.linkedin.com/in/ruslan-shakirov-042a76107/)
 - [8 927 241-32-47](tel:89272413247)
-- [toshiroshak@gmail.com](mailto:toshiroshak@gmail.com)
+- [ruslan@shakirov.dev](mailto:ruslan@shakirov.dev)
